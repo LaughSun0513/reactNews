@@ -1,0 +1,120 @@
+html{
+    font-size: 16px;
+}
+#mobileheader {
+    flex:1;
+    background: #f6f6f6;
+}
+#mobileheader header{
+    border-bottom:1px #2db7f5;
+    padding-left:0.6rem;
+}
+#mobileheader header img{
+    width:6.25rem;
+    height:1.5rem;
+
+}
+ .login-form {
+     max-width: 100%;
+ }
+
+ .login-form-button {
+     width: 100%;
+ }
+ #mobileheader i {
+     font-size: 1.6rem;
+     float: right;
+     margin-right: 0.4rem;
+     margin-top: 0.2rem;
+     color: #2db7f5;
+ }
+ .m_article {
+     font-size: 14px;
+     padding: .2rem 0;
+     border-bottom: 1px solid #e5e5e5;
+     margin: 0 .3rem
+ }
+
+ .m_article .m_article_img {
+     float: left;
+     width: 27%;
+     height: 94px;
+     overflow: hidden;
+     position: relative;
+     margin-right: .2rem
+ }
+ .m_article .m_article_img img {
+     width: 100%;
+     display: block;
+     height: 90px;
+ }
+ .m_article .m_article_info {
+     margin-bottom: 4px
+ }
+ .m_article .m_article_desc .m_article_channel {
+     display: inline-block;
+     color: rgba(255, 51, 51, 0.9);
+     font-size: 12px;
+     padding: 2px;
+     line-height: 12px;
+     margin-right: .1rem;
+     background: url(http://img2.cache.netease.com/f2e/wap/common/images/border_red.png) no-repeat;
+     background-size: 100% 100%
+ }
+.m_article .m_article_desc .m_article_desc_l {
+    float: left
+}
+.m_article .m_article_desc .m_article_time {
+    font-size: .24rem;
+    color: #888;
+    display: inline-block
+}
+
+.carousel {
+    width: 400px;
+    float: left;
+}
+
+.carousel img {
+    width: 400px;
+    height: 260px;
+}
+ 
+#mobileDetailsContainer .title,
+.article-title .title {
+    font-size: 0.44rem !important;
+    line-height: 1.4em
+}
+
+#mobileDetailsContainer .article-src-time {
+    font-size: 0.3rem !important;
+}
+
+#mobileDetailsContainer .article-content .txt {
+    font-size: 0.36rem;
+}
+
+#mobileDetailsContainer .ant-row {
+    margin-top: 20px;
+}
+
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+    width: 150px;
+    height: 150px;
+}
+
+.avatar-uploader {
+    display: block;
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.avatar-uploader-trigger {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 28px;
+    color: #999;
+}
